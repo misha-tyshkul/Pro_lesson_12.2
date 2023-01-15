@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <main>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Имя" />
+        <input type="text" name="last_name" placeholder="Фамилия" />
+        <input type="text" name="birthday" placeholder="Дата рождения" />
+
+        <label for="male">
+          <input type="radio" id="male" name="sex" value="male" />
+          Мужчина
+        </label>
+        <label for="female">
+          <input type="radio" id="female" name="sex" value="female" />
+          Женщина
+        </label>
+        <select name="city">
+          <option selected disabled>Выберите город</option>
+          <option value="odessa">Одесса</option>
+          <option value="lviv">Львов</option>
+          <option value="kyiv">Киев</option>
+          <option value="dnepr">Днепропетровск</option>
+        </select>
+        <textarea name="adress" cols="30" rows="2" placeholder="Введите адресс"></textarea>
+
+        <label for="eng">
+          <input type="checkbox" id="eng" name="language" />
+          Английский
+        </label>
+        <label for="uk">
+          <input type="checkbox" id="uk" name="language" checked />
+          Украинский
+        </label>
+        <label for="fr">
+          <input type="checkbox" id="fr" name="language" />
+          Французкий
+        </label>
+        <label for="es">
+          <input type="checkbox" id="es" name="language" />
+          Испанский
+        </label>
+
+        <button id="save-btn" type="submit">Сохранить</button>
+      </form>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
